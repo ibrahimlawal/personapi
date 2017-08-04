@@ -1,8 +1,8 @@
 package main
 
 import (
-    "fmt"
-    "os"
+	"fmt"
+	"os"
 )
 
 type DB struct {
@@ -24,7 +24,7 @@ func (d *DB) loadEnv() {
 }
 
 func DBParams() (d DB) {
-    d = DB{}
-    d.loadEnv()
-    return
+	d = DB{}
+	d.loadEnv()
+	return
 }
